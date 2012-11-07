@@ -1,0 +1,16 @@
+ru:
+  homes:
+    index:
+      email: "Ваш email"
+      body: "Ваш вопрос"
+      submit: "Отправить"
+      person: "Контактное лицо:"
+      contact-heading: "Контакты"
+      send-us-mail: "Задайте свой вопрос"
+      works-heading: "Наши работы"
+      portfolio-heading: "Портфолио"
+      home-heading: "Главная"
+
+      hello: "Привет!"
+      main-text: "Мы создаем решения для любых веб приложений. С удовольствием поработаем и над вашим"
+      our-works: "Наши работы"

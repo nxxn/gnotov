@@ -1,0 +1,22 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  homes:
+    index:
+      email: "Your email"
+      body: "Your question"
+      submit: "Send"
+      person: "Contact person:"
+      contact-heading: "Contacts"
+      send-us-mail: "Or you can send us mail here"
+
+      works-heading: "Our Works"
+
+      portfolio-heading: "Portfolio"
+
+      home-heading: "Home"
+
+      hello: "Hello!"
+      main-text: "We enjoy creating solutions for any kind of web applications. We'd love to work on yours, too"
+      our-works: "Our works"

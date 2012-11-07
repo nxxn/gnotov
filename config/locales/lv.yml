@@ -1,0 +1,16 @@
+lv:
+  homes:
+    index:
+      email: "Jūsu e-mail"
+      body: "Jūsu jautājums"
+      submit: "Sūtīt"
+      person: "Kontaktpersona:"
+      contact-heading: "Kontakti"
+      send-us-mail: "Uzdodiet savu jautājumu"
+      portfolio-heading: "Portfolio"
+      works-heading: "Mūsu darbi"
+      home-heading: "Galvenā"
+
+      hello: "Sveicināti!"
+      main-text: "Būsim priecīgi jebkura veida web risinājumu sadarbībā"
+      our-works: "Mūsu darbi"

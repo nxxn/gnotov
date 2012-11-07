@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %title Web Design by gnotov.com
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tag
+  %body.inner
+    #container
+      %header
+        %a#logo{:href => root_path}
+        %ul.navi
+          %li
+            = render '/shared/languages'
+          %li
+            = render '/shared/header'
+        .clearfix
+
+      %section
+        = yield
+
+
+    = yield :head

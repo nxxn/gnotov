@@ -1,0 +1,33 @@
+#contacts
+  .page-header
+    %h1
+      %small
+        = t('homes.index.contact-heading')
+  %address
+    %strong
+      = t('homes.index.person')
+      %br
+    #contact-info
+      Nikita Gnotov
+      %br
+      %a{:href => "mailto:n.gnotov@gmail.com"} nikita@gnotov.com
+      %br
+      +371 26659556
+
+  #contact-form
+    %strong
+      = t('homes.index.send-us-mail')
+    %fieldset
+      = form_for @message, :html => { :class => "form-horizontal"}, :url => homes_path do |form|
+        .control-group
+          = form.label t('homes.index.email'), :class => "control-label"
+          .controls
+            = form.text_field :email, :class => "input-xlarge"
+        .control-group
+          = form.label t('homes.index.body'), :class => "control-label"
+          .controls
+            = form.text_area :body
+        .control-group
+          .controls
+            = form.submit t('homes.index.submit'), :class => "btn btn-success"
+  .clearfix

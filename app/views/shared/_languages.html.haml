@@ -1,0 +1,13 @@
+%ul#languages.nav.nav-pills
+  %li{:class => I18n.locale == :en ? 'active' : ''}
+    %a.language.en{:href => url_for(:locale => :en)}
+      en
+  %li{:class => I18n.locale == :ru ? 'active' : ''}
+    %a.language.ru{:href => url_for(:locale => :ru)}
+      ru
+  %li{:class => I18n.locale == :lv ? 'active' : ''}
+    %a.language.en{:href => url_for(:locale => :lv)}
+      lv
+  %li{:class => I18n.locale == :de ? 'active' : ''}
+    %a.language.en{:href => url_for(:locale => :de)}
+      de
