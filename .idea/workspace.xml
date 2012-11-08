@@ -19,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="80" selection-start="775" selection-end="775" vertical-scroll-proportion="-13.730769">
+            <state line="11" column="84" selection-start="443" selection-end="443" vertical-scroll-proportion="0.21518987">
               <folding />
             </state>
           </provider>
@@ -82,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ru.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="59" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2659218">
+            <state line="15" column="29" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +127,6 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin.sass" />
         <option value="$PROJECT_DIR$/app/views/homes/_works.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/admin/works_controller.rb" />
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/config/locales/lv.yml" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/config/locales/ru.yml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -772,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="80" selection-start="775" selection-end="775" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="38" selection-start="98" selection-end="123" vertical-scroll-proportion="0.0">
@@ -830,7 +823,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="59" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2659218">
+        <state line="15" column="29" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="84" selection-start="443" selection-end="443" vertical-scroll-proportion="0.21518987">
           <folding />
         </state>
       </provider>
