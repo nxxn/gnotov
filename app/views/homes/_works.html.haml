@@ -1,0 +1,16 @@
+#works
+  .page-header
+    %h1
+      %small
+        = t('homes.index.works-heading')
+  %ul.thumbnails
+    - @works.each do |work|
+      %li.span3
+        .thumbnail
+          %a{:href=>work.picture.url, :rel => "image", :class => "img_gal", :title => work.url}
+            %span.roll
+            %img{:src=>work.picture.url(:medium)}
+          %h4
+            = work.url
+          %p
+            = work.description

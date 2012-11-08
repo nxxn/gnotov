@@ -1,0 +1,22 @@
+%fieldset
+  = form_for [:admin, @work], remote: true, :html => { :class => "form-horizontal", :multipart => true}  do |f|
+    .control-group
+      = f.label :url, :class => "control-label"
+      .controls
+        = f.text_field :url, :class => "input-xlarge"
+    .control-group
+      = f.label :description, :class => "control-label"
+      .controls
+        = f.text_area :description
+    .control-group
+      = f.label :show, :class => "control-label"
+      .controls
+        %label.checkbox
+          = f.check_box :show, :class => ""
+    .control-group
+      = f.label :picture, :class => "control-label"
+      .controls
+        = f.file_field :picture, :class => "input-file", :id => "fileInput"
+    .control-group
+      .controls
+        = f.submit :create, :class => "btn btn-success"

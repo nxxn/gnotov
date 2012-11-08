@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title Administration / gnotov.com
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tag
+  %body
+    #highlight
+    #floater
+    #content
+      %header
+        %a#logo{:href => ""}
+      %section.modal
+        = yield
+    %footer
+      Copyright 2012 gnotov.com. All Rights Reserved.

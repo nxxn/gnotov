@@ -1,0 +1,20 @@
+%table#works-list.table.table-hover
+  %thead
+    %tr
+      %th URL
+      %th Description
+      %th Picture
+      %th Actions
+  %tbody
+    - @works.each do |work|
+      %tr{:id => "work_#{work.id}" }
+        %td
+          = work.url
+        %td
+          = work.description
+        %td
+          -unless (work.picture.content_type =~ /^image/).nil?
+            = image_tag work.picture.url(:thumb)
+        %td
+          = link_to "Edit", edit_admin_work_path(work), :class => 'btn btn-mini '
+          = link_to "Delete",admin_work_path(work), :method => :delete, :class => 'btn btn-mini btn-danger', remote: true

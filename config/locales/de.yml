@@ -1,0 +1,16 @@
+de:
+  homes:
+    index:
+      email: "Your email"
+      body: "Your question"
+      submit: "Send"
+      person: "Contact person:"
+      contact-heading: "Kontakt"
+      send-us-mail: "Or you can send us mail here"
+      works-heading: "Unser Portfolio"
+      portfolio-heading: "Portfolio"
+      home-heading: "Home"
+
+      hello: "Hallo!"
+      main-text: "We enjoy creating solutions for any kind of web applications. We'd love to work on yours, too"
+      our-works: "Unser portfolio"

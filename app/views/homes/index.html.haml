@@ -1,0 +1,21 @@
+= javascript_include_tag 'jquery.fancybox.pack'
+= stylesheet_link_tag 'jquery.fancybox'
+
+:javascript
+  $(document).ready(function() {
+      $("a[rel]").fancybox({
+        padding: 0,
+
+        helpers : {
+            overlay : {
+              opacity : 1
+            }
+        }
+      });
+  });
+
+%article
+
+  = render 'welcome'
+  = render 'works'
+  = render 'contacts'

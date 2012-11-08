@@ -1,0 +1,94 @@
+body
+  background: white url(/assets/lyonnette.png) repeat !important
+#container
+  background: #FBFBF9
+  position: relative
+  width: 960px
+  max-width: 82%
+  margin: 20px auto
+  padding: 20px
+  border-radius: 5px
+  box-shadow:  rgba(0, 0, 0, 0.298039) 0px 1px 20px
+  header
+    #logo
+      width: 250px
+      height: 50px
+      background: #FBFBF9 url("/assets/logo/logo4.png") no-repeat
+      float: left
+      margin: 20px 0 0 20px
+    ul.navi
+      width: 400px
+      float: right
+      list-style: none
+    ul#languages
+      float: right
+      font-size: 14px
+      li
+        &.active
+          a
+            background-color: #e7e7e7
+        a
+          color: #999
+    ul#navigation
+      font-size: 20px
+      font-weight: bold
+      float: right
+      li
+        a
+          color: #333333
+        &.active
+          a
+            color: #47b940
+            border: 1px solid #47b940
+            border-bottom: none
+  section
+    article
+      legend
+        ul
+          float: right
+      fieldset
+        textarea#work_description, textarea#message_body
+          width: 270px
+          height: 100px
+      p#empty
+        text-align: center
+        border-top: 1px solid #E5E5E5
+        padding:  10px 0 0 0
+      span.back-link
+        float: right
+      table.table.table-hover
+        border-top: 1px solid #E5E5E5
+        padding:  10px 0 0 0
+      #contacts
+        #contact-form
+          width: 60%
+          float: right
+          form
+            float: left
+            .control-group
+              label
+                width: auto
+                margin: 0 0 5px 0
+              .controls
+                margin: 10px 0 0 0
+            input
+              margin: 0
+        address
+          width: 40%
+          float: left
+      #works
+        li.span3
+          .thumbnail
+            min-height: 250px
+          a
+            img
+              min-height: 133px
+          span.roll
+            background: url(/assets/mag.png) center center no-repeat #000
+            height: 132px
+            position: absolute
+            width: 210px
+            z-index: 10
+            -webkit-box-shadow: 0px 0px 4px #000
+            -moz-box-shadow: 0px 0px 4px  #000
+            box-shadow: 0px 0px 4px  #000

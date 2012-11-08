@@ -1,0 +1,42 @@
+!!!
+%html
+  %head
+    %title Web Design by gnotov.com
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tag
+
+    %meta{:name => "google-site-verification", :content => "OKuMj4YDTJuK53R2hk-v83MkfXThWbE6r076BJWNO_o"}
+
+    :plain
+
+      <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+  %body.inner
+    #container
+      %header
+        %a#logo{:href => root_path}
+        %ul.navi
+          %li
+            = render '/shared/languages'
+          %li
+            = render '/shared/header'
+        .clearfix
+
+      %section
+        = yield
+
+
+    = yield :head
+
+  :javascript
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36198715-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
