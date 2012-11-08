@@ -85,7 +85,7 @@
       <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="110" selection-start="445" selection-end="445" vertical-scroll-proportion="0.2659218">
+            <state line="14" column="59" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2659218">
               <folding />
             </state>
           </provider>
@@ -830,7 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="110" selection-start="445" selection-end="445" vertical-scroll-proportion="0.2659218">
+        <state line="14" column="59" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2659218">
           <folding />
         </state>
       </provider>
