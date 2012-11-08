@@ -18,7 +18,7 @@
     %strong
       = t('homes.index.send-us-mail')
     %fieldset
-      = form_for @message, :html => { :class => "form-horizontal"}, :url => message_path do |form|
+      = form_for @message, :html => { :class => "form-horizontal"}, :url => root_path do |form|
         .control-group
           = form.label t('homes.index.email'), :class => "control-label"
           .controls
