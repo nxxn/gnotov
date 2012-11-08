@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.sass" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="35" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.6960894">
+            <state line="86" column="35" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_works.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_works.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="-8.5">
+            <state line="15" column="40" selection-start="433" selection-end="433" vertical-scroll-proportion="0.29344073">
               <folding />
             </state>
           </provider>
@@ -103,11 +103,11 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/views/homes/_works.html.haml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/admin/works_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin.sass" />
+        <option value="$PROJECT_DIR$/app/views/homes/_works.html.haml" />
       </list>
     </option>
   </component>
@@ -748,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="32" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.6268156">
@@ -785,7 +778,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="35" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.6960894">
+        <state line="86" column="35" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="433" selection-end="433" vertical-scroll-proportion="0.29344073">
           <folding />
         </state>
       </provider>
