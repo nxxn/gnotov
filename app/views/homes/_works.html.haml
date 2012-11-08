@@ -11,6 +11,6 @@
             %span.roll
             %img{:src=>work.picture.url(:medium)}
           %h4
-            = work.url
+            = work.url.html_safe
           %p
             = work.description

@@ -64,19 +64,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.sass" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="32" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.677095">
+            <state line="83" column="32" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_contacts.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/homes/_contacts.html.haml">
+      <file leaf-file-name="_works.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="70" selection-start="297" selection-end="297" vertical-scroll-proportion="-9.807693">
+            <state line="13" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="0.25431532">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/work.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20121107100213_create_work_translation.rb" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/homes/_welcome.html.haml" />
@@ -108,6 +107,7 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin.sass" />
+        <option value="$PROJECT_DIR$/app/views/homes/_works.html.haml" />
       </list>
     </option>
   </component>
@@ -603,7 +603,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -713,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="128" selection-end="128" vertical-scroll-proportion="0.1173763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -778,14 +771,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/_contacts.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="70" selection-start="297" selection-end="297" vertical-scroll-proportion="-9.807693">
+        <state line="15" column="70" selection-start="297" selection-end="297" vertical-scroll-proportion="0.29344073">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="32" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.677095">
+        <state line="83" column="32" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="0.25431532">
           <folding />
         </state>
       </provider>
