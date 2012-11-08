@@ -19,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="80" selection-start="775" selection-end="775" vertical-scroll-proportion="0.41081703">
+            <state line="21" column="80" selection-start="775" selection-end="775" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
@@ -31,7 +31,7 @@
       <file leaf-file-name="homes_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="53" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+            <state line="4" column="38" selection-start="98" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,6 +64,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="works_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/works_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="46" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09497207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_works.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/homes/_welcome.html.haml" />
         <option value="$PROJECT_DIR$/config/locales/lv.yml" />
         <option value="$PROJECT_DIR$/config/locales/de.yml" />
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/app/views/homes/_works.html.haml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/works_controller.rb" />
       </list>
     </option>
   </component>
@@ -704,20 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/works_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="245" selection-end="245" vertical-scroll-proportion="0.22793296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="68" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
@@ -753,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="32" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/_works.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="32" selection-start="379" selection-end="379" vertical-scroll-proportion="-8.5">
@@ -776,7 +764,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="80" selection-start="775" selection-end="775" vertical-scroll-proportion="0.41081703">
+        <state line="21" column="80" selection-start="775" selection-end="775" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="32" selection-start="1879" selection-end="1879" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="98" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/works_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="46" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09497207">
           <folding />
         </state>
       </provider>

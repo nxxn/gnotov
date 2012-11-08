@@ -3,7 +3,7 @@ class Admin::WorksController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-    @works = Work.all
+    @works = Work.all.order("updated_at DESC")
     @work = Work.new
   end
 
