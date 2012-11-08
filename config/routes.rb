@@ -12,8 +12,8 @@ Gnotov::Application.routes.draw do
 
     root :to => "homes#index"
 
-    match '/' => 'homes#index', :as => 'homes', :via => :get
-    match '/' => 'homes#create', :as => 'homes', :via => :post
+    match '/:locale' => 'homes#index', :as => 'homes', :via => :get
+    match '/:locale' => 'homes#create', :as => 'homes', :via => :post
 
   end
 end
