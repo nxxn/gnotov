@@ -1,15 +1,15 @@
 de:
   homes:
     index:
-      email: "Your email"
-      body: "Your question"
-      submit: "Send"
-      person: "Contact person:"
+      email: "Ihre e-mail adresse"
+      body: "Ihre fragen"
+      submit: "Senden"
+      person: "Kontakt person:"
       contact-heading: "Kontakt"
-      send-us-mail: "Or you can send us mail here"
+      send-us-mail: "Fragen sie uns"
       works-heading: "Unser Portfolio"
       portfolio-heading: "Portfolio"
-      home-heading: "Home"
+      home-heading: "Startseite"
 
       hello: "Hallo!"
       main-text: "We enjoy creating solutions for any kind of web applications. We'd love to work on yours, too!"
