@@ -1,16 +1,24 @@
 !!!
 %html
   %head
-    %title Web Design by gnotov.com
+    - if I18n.locale == :ru
+      %title Разработка сайтов
+    - else
+      %title Website Development
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'application'
     = csrf_meta_tag
 
     %meta{:name => "google-site-verification", :content => "OKuMj4YDTJuK53R2hk-v83MkfXThWbE6r076BJWNO_o"}
 
-    %meta{:content => "Creative website and web design development studio", :name => "title"}
-    %meta{:content => "Here you can find some cool examples of websites that we made.", :name => "description"}
-    %meta{:content => "web design, web studio, website development", :name => "keywords"}
+    - if I18n.locale == :ru
+      %meta{:content => "Разработка веб-сайтов", :name => "title"}
+      %meta{:content => "Наше портфолио. nikita@gnotov.com", :name => "description"}
+      %meta{:content => "веб дизайн, разработка сайта, сделать сайт", :name => "keywords"}
+    - else
+      %meta{:content => "Creative website and web design development studio", :name => "title"}
+      %meta{:content => "Here you can find some cool examples of websites that we made.", :name => "description"}
+      %meta{:content => "web design, web studio, website development", :name => "keywords"}
 
     :plain
 
@@ -41,4 +49,3 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
