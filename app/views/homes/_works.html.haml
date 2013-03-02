@@ -9,7 +9,7 @@
         .thumbnail
           %a{:href=>work.picture.url, :rel => "image", :class => "img_gal", :title => work.url}
             %span.roll
-            %img{:src=>work.picture.url(:medium)}
+            %img{:src=>work.picture.url(:original)}
           %h4
             = work.url.html_safe
           %p
