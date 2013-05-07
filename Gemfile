@@ -14,6 +14,7 @@ gem 'aws-s3', :require => 'aws/s3'
 gem 'haml'
 gem 'aws-sdk'
 gem 'globalize3'
+gem 'heroku'
 
 
 # Gems used only for assets and not required
@@ -34,7 +35,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  #gem 'pg'
 end
 
 gem 'jquery-rails'
