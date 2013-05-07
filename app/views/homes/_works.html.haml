@@ -7,7 +7,7 @@
     - @works.each do |work|
       %li.span3
         .thumbnail
-          %a{:href=>work.picture.url, :rel => "image", :class => "img_gal", :title => work.url}
+          %a{:href=>work.picture.url, :rel => "image", :class => "thumbnail", :title => work.url}
             %span.roll
             %img{:src=>work.picture.url(:original)}
           %h4

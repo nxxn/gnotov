@@ -15,5 +15,7 @@ Gnotov::Application.routes.draw do
     match '/:locale' => 'homes#new', :as => 'message', :via => :get
     match '/:locale' => 'homes#create', :as => 'message', :via => :post
 
+    match 'pricelist' => "homes#pricelist", :as => :pricelist, :defaults => { :format => "xml" }
+
   end
 end

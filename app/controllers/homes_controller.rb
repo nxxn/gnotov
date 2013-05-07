@@ -1,10 +1,8 @@
 class HomesController < ApplicationController
 
   def index
-
     @works = Work.where(:show => true).order("updated_at DESC")
     @message = Message.new
-
   end
 
   def new
@@ -21,13 +19,12 @@ class HomesController < ApplicationController
       flash.now.alert = "Please fill all fields."
       render :new
     end
-
   end
 
-
-
-
-
+  def pricelist
+    @works = Work.where(:show => true).order("updated_at DESC")
+    #@item_categories = Category.enabled
+  end
 end
 
 

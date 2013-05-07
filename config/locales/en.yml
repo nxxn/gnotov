@@ -9,14 +9,14 @@ en:
       submit: "Send"
       person: "Contact person:"
       contact-heading: "Contacts"
-      send-us-mail: "Or you can send us mail here"
+      send-us-mail: "Or you can send me mail here"
 
-      works-heading: "Our Works"
+      works-heading: "My Works"
 
       portfolio-heading: "Portfolio"
 
       home-heading: "Home"
 
       hello: "Hello!"
-      main-text: "We enjoy creating solutions for any kind of web applications. We'd love to work on yours, too!"
-      our-works: "Our works"
+      main-text: "I enjoy creating solutions for any kind of web applications. I'd love to work on yours, too!"
+      our-works: "My works"
