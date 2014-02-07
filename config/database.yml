@@ -15,7 +15,7 @@ development:
   database: gnotov_development
   pool: 5
   username: root
-  password: mms13lol
+  password: root
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: gnotov_test
   pool: 5
   username: root
-  password: mms13lol
+  password: root
   host: localhost
 
 production:
@@ -38,5 +38,5 @@ production:
   database: gnotov_production
   pool: 5
   username: root
-  password: mms13lol
+  password: root
   host: localhost

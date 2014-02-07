@@ -1,0 +1,15 @@
+%article
+  %legend
+    Create new record
+    = render '/shared/languages'
+  = render 'form'
+
+  - if @posts.empty?
+
+    %p#empty.lead
+      No records yet
+
+  -else
+
+    #posts
+      = render 'post'

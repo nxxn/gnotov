@@ -1,10 +1,9 @@
 %ul#navigation.nav.nav-tabs
-  %li#home.active
-    %a{:href => "#"}
-      = t('homes.index.home-heading')
-  %li#portfolio
-    %a{:href => "#"}
-      = t('homes.index.portfolio-heading')
-  %li#contactme
-    %a{:href => "#"}
-      = t('homes.index.contact-heading')
+  %li#home{:class => params[:action] == 'index' ? "active" : ""}
+    = link_to "#{t('homes.index.home-heading')}", root_path
+  %li#about_me{:class => params[:action] == 'about' ? "active" : ""}
+    = link_to "#{t('homes.index.about-heading')}", about_path
+  %li#portfolio{:class => params[:action] == 'works' ? "active" : ""}
+    = link_to "#{t('homes.index.portfolio-heading')}", portfolio_path
+  %li#contactme{:class => params[:action] == 'contacts' ? "active" : ""}
+    = link_to "#{t('homes.index.contact-heading')}", contacts_path

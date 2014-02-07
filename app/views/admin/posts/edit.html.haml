@@ -1,0 +1,13 @@
+%article
+  #legend
+    %legend
+      Edit your record
+      = render '/shared/languages'
+
+  %span.back-link
+    = link_to 'Назад', admin_posts_path
+
+  = render 'form'
+
+  -unless (@post.picture.content_type =~ /^image/).nil?
+    = image_tag @post.picture.url(:medium), :class => "picture"

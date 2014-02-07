@@ -17,7 +17,7 @@ body
       float: left
       margin: 20px 0 0 20px
     ul.navi
-      width: 400px
+      width: 450px
       float: right
       list-style: none
     ul#languages
@@ -43,6 +43,8 @@ body
             border-bottom: none
   section
     article
+      .page-header
+        padding-left: 20px
       legend
         ul
           float: right
@@ -59,6 +61,11 @@ body
       table.table.table-hover
         border-top: 1px solid #E5E5E5
         padding:  10px 0 0 0
+      #about
+        .about_me_text
+          margin-left: 20px
+        b
+          color: #47b940
       #contacts
         #contact-form
           width: 60%
@@ -74,8 +81,13 @@ body
             input
               margin: 0
         address
-          width: 40%
+          width: calc(40% - 20px)
           float: left
+          margin-left: 20px
+        .profile_pic
+          max-width: 160px
+          max-height: 160px
+          margin-top: 11px
       #works
         li.span3
           .thumbnail

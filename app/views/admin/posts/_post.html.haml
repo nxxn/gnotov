@@ -1,0 +1,20 @@
+%table#posts-list.table.table-hover
+  %thead
+    %tr
+      %th Title
+      %th Main Text
+      %th Picture
+      %th Actions
+  %tbody
+    - @posts.each do |post|
+      %tr{:id => "post_#{post.id}" }
+        %td
+          = post.title
+        %td
+          = post.main_text
+        %td
+          -unless (post.picture.content_type =~ /^image/).nil?
+            = image_tag post.picture.url(:thumb)
+        %td
+          = link_to "Edit", edit_admin_post_path(post), :class => 'btn btn-mini '
+          = link_to "Delete",admin_post_path(post), :method => :delete, :class => 'btn btn-mini btn-danger', remote: true

@@ -8,11 +8,18 @@
       = t('homes.index.person')
       %br
     #contact-info
+      = image_tag "/assets/profile_pic.jpg", :class => "img-rounded profile_pic"
+      %br
+      %br
       Nikita Gnotov
       %br
       %a{:href => "mailto:n.gnotov@gmail.com"} nikita@gnotov.com
       %br
       +371 26659556
+      %br
+      %br
+      %b
+        = link_to "Click here to check my Elance profile", "https://www.elance.com/s/gnotov/", :target => "blank"
 
   #contact-form
     %strong

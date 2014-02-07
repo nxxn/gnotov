@@ -1,7 +1,17 @@
 class HomesController < ApplicationController
 
   def index
+    ap params
+  end
+
+  def works
     @works = Work.where(:show => true).order("updated_at DESC")
+  end
+
+  def about
+  end
+
+  def contacts
     @message = Message.new
   end
 

@@ -5,11 +5,13 @@ lv:
       body: "Jūsu jautājums"
       submit: "Sūtīt"
       person: "Kontaktpersona:"
+
       contact-heading: "Kontakti"
       send-us-mail: "Uzdodiet savu jautājumu"
       portfolio-heading: "Portfolio"
       works-heading: "Mūsu darbi"
       home-heading: "Galvenā"
+      about-heading: "Par mani"
 
       hello: "Sveicināti!"
       main-text: "Būsim priecīgi jebkura veida web risinājumu sadarbībā!"

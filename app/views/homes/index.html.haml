@@ -8,8 +8,11 @@
     });
   });
 
-%article
-
-  = render 'welcome'
-  = render 'works'
-  = render 'contacts'
+#welcome
+  .hero-unit
+    %h1
+      = t('homes.index.hello')
+    %p
+      = t('homes.index.main-text')
+    %p
+      = link_to "#{t('homes.index.our-works')}", portfolio_path, :id => "our-works", :class => "btn btn-primary btn-large"
