@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $(".img_gal").fancybox({
+    padding: 0
+  });
+
   $(function() {
   // OPACITY OF BUTTON SET TO 0%
   $(".roll").css("opacity","0");
