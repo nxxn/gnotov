@@ -1,7 +1,6 @@
 class HomesController < ApplicationController
 
   def index
-    ap params
   end
 
   def works
