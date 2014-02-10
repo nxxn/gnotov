@@ -7,8 +7,8 @@ class Post < ActiveRecord::Base
                     :styles => { :medium => "260x180>", :thumb => "100x100>", :original => "900x600>" },
                     :bucket => 'musthave-new',
                     :s3_credentials => {
-                      :access_key_id => 'AKIAIELUBMUNHPAY37KQ',
-                      :secret_access_key => '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'
+                      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+                      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
                     }
 
 end
