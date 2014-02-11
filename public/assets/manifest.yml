@@ -9,14 +9,12 @@ fancybox_sprite.png: fancybox_sprite-6db739144c51af76aea8960fc35dbda7.png
 fancybox_sprite/index.png: fancybox_sprite-6db739144c51af76aea8960fc35dbda7.png
 favicon.ico: favicon-b18210d602a56c36145629b6ecc1978d.ico
 favicon/index.ico: favicon-b18210d602a56c36145629b6ecc1978d.ico
-logo/logo4.png: logo/logo4-e73e6e04fb0ce1ff2b871b580bc6b65a.png
-logo/logo4/index.png: logo/logo4-e73e6e04fb0ce1ff2b871b580bc6b65a.png
+logo/logo4.png: logo/logo4-91566ac298f05c3858d53c49646c98a5.png
+logo/logo4/index.png: logo/logo4-91566ac298f05c3858d53c49646c98a5.png
 lyonnette.png: lyonnette-87d9ff68a373bb4135354059dc9df654.png
 lyonnette/index.png: lyonnette-87d9ff68a373bb4135354059dc9df654.png
 mag.png: mag-3151b67dc2f4e8528d82024a948645c7.png
 mag/index.png: mag-3151b67dc2f4e8528d82024a948645c7.png
-profile_pic.jpg: profile_pic-685fd5c63dd5b9eab860098e13a0a8b3.jpg
-profile_pic/index.jpg: profile_pic-685fd5c63dd5b9eab860098e13a0a8b3.jpg
 profile_pic2.jpg: profile_pic2-8e8f2f4660a8f3f6aa293a2c82748709.jpg
 profile_pic2/index.jpg: profile_pic2-8e8f2f4660a8f3f6aa293a2c82748709.jpg
 application.js: application-f24cbc6f1450b167f10f90fc70bf9181.js
