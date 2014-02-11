@@ -5,7 +5,7 @@
       %title Разработка веб-сайтов
     - else
       %title Creative website and web design development studio
-    = stylesheet_link_tag 'application', :async => true
+    
     
     = csrf_meta_tag
 
@@ -38,6 +38,7 @@
         %article
           = yield
 
+    = stylesheet_link_tag 'application', :async => true
     = javascript_include_tag 'application', :async => true
 
     :javascript
