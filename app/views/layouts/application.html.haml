@@ -5,7 +5,7 @@
       %title Разработка веб-сайтов
     - else
       %title Creative website and web design development studio
-    = stylesheet_link_tag 'application', :async => true
+    
     
     = csrf_meta_tag
 
@@ -22,6 +22,8 @@
 
       <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
       <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    = stylesheet_link_tag 'application', :async => true
 
   %body.inner
     #container
