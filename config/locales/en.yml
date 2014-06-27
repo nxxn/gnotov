@@ -15,6 +15,7 @@ en:
       about-heading: "About me"
       portfolio-heading: "Portfolio"
       home-heading: "Home"
+      blog-heading: "Blog"
 
       hello: "Hello!"
       main-text: "My name is Nikita Gnotov, I'm a professional Ruby on Rails developer."

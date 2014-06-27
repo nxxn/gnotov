@@ -30,10 +30,6 @@ class HomesController < ApplicationController
     end
   end
 
-  def pricelist
-    @works = Work.where(:show => true).order("updated_at DESC")
-    #@item_categories = Category.enabled
-  end
 end
 
 

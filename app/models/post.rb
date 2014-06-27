@@ -11,4 +11,7 @@ class Post < ActiveRecord::Base
                       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
                     }
 
+  scope :shown, where('show = ?', true)
+  scope :published, order("updated_at desc")
+
 end

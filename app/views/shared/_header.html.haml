@@ -1,9 +1,11 @@
 %ul#navigation.nav.nav-tabs
-  %li#home{:class => params[:action] == 'index' ? "active" : ""}
+  %li#home{:class => params[:action] == 'index' && params[:controller] == 'homes' ? "active" : ""}
     = link_to "#{t('homes.index.home-heading')}", root_path
   %li#about_me{:class => params[:action] == 'about' ? "active" : ""}
     = link_to "#{t('homes.index.about-heading')}", about_path
   %li#portfolio{:class => params[:action] == 'works' ? "active" : ""}
     = link_to "#{t('homes.index.portfolio-heading')}", portfolio_path
+  %li#portfolio{:class => params[:controller] == 'posts' ? "active" : ""}
+    = link_to "#{t('homes.index.blog-heading')}", posts_path
   %li#contactme{:class => params[:action] == 'contacts' ? "active" : ""}
     = link_to "#{t('homes.index.contact-heading')}", contacts_path
