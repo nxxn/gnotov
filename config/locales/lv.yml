@@ -15,5 +15,6 @@ lv:
       blog-heading: "Blogs"
 
       hello: "Sveicināti!"
-      main-text: "Būsim priecīgi jebkura veida web risinājumu sadarbībā!"
+      main-text: "My name is Nikita Gnotov, I'm a professional Ruby on Rails developer."
+      main-text-2: "I can help you build your next web application or troubleshoot existing Rails or Ruby code."
       our-works: "Mūsu darbi"
