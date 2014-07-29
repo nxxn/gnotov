@@ -11,7 +11,7 @@
       = image_tag "/assets/profile_pic2.jpg", :class => "img-rounded profile_pic"
       %br
       %br
-      Nikita Gnotov
+      %b Nikita Gnotov
       %br
       %a{:href => "mailto:n.gnotov@gmail.com"} nikita@gnotov.com
       %br
@@ -19,7 +19,13 @@
       %br
       %br
       %b
-        = link_to "Click here to check my Elance profile", "https://www.elance.com/s/gnotov/", :target => "blank"
+        = link_to t('homes.index.elance_profile'), "https://www.elance.com/s/gnotov/", :target => "blank", :class => "contact_info_elance"
+      %br
+      %br
+      %b
+        = t('homes.index.person_ukraine')
+      %br
+      +38 093 851 49 12
 
   #contact-form
     %strong

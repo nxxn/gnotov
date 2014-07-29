@@ -8,6 +8,8 @@ en:
       body: "Your question"
       submit: "Send"
       person: "Contact person:"
+      person_ukraine: "Vladimir Ribin (Ukraine)"
+      elance_profile: "Click here to check my Elance profile"
       contact-heading: "Contacts"
       send-us-mail: "Or you can send me mail here"
 

@@ -5,7 +5,7 @@
     = link_to "#{t('homes.index.about-heading')}", about_path
   %li#portfolio{:class => params[:action] == 'works' ? "active" : ""}
     = link_to "#{t('homes.index.portfolio-heading')}", portfolio_path
-  %li#portfolio{:class => params[:controller] == 'posts' ? "active" : ""}
+  %li#portfolio{:style => "display: none;", :class => params[:controller] == 'posts' ? "active" : ""}
     = link_to "#{t('homes.index.blog-heading')}", posts_path
   %li#contactme{:class => params[:action] == 'contacts' ? "active" : ""}
     = link_to "#{t('homes.index.contact-heading')}", contacts_path

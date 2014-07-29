@@ -9,9 +9,8 @@
       = t('homes.index.hello')
     %p
       = t('homes.index.main-text')
-      - if I18n.locale == :en
-        %br
-        = t('homes.index.main-text-2')
+      %br
+      = t('homes.index.main-text-2')
     %br
     %p
       = link_to "#{t('homes.index.our-works')}", portfolio_path, :id => "our-works", :class => "btn btn-primary btn-large"
