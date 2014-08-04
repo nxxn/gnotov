@@ -1,55 +1,114 @@
-#about
-  .page-header
-    %h1
-      %small
-        = t('homes.index.about-heading')
-  .about_me_text
-    %b
-      Hello!
+- if I18n.locale == :ru
+  #about
+    .page-header
+      %h1
+        %small
+          = t('homes.index.about-heading')
+    .about_me_text
+      %b
+        Привет!
 
-    %br
-    %br
-    My name is Nikita Gnotov, I'm a professional Ruby on Rails developer. I'm always working with enthusiasm to get the best result for client.
+      %br
+      %br
+      Меня зовут Никита, я профессиональный Ruby on Rails разработчик. Я всегда работаю с энтузиазмом, чтобы создать самое лучшее решение для клиента.
 
-    %br
-    %br
-    %b
-      Why choose me?
+      %br
+      %br
+      %b
+        Почему выбрать меня?
 
-    %br
-    %br
-    %ul
-      %li
-        I work quickly and adapt to changing demands easily
-      %li
-        I write clean, efficient code that's easy to understand
-      %li
-        I work only with Rails and Ruby
-      %li
-        I'm well organized with ability to manage multiple projects and issues simultaneously
-      %li
-        I'm flexible and adaptable. Able to work under tight deadlines with rapidly changing priorities.
+      %br
+      %br
+      %ul
+        %li
+          Я работаю быстро и легко адаптируюсь к изменениям
+        %li
+          Я пишу чистый, эффективный код, который легко понять
+        %li
+          Я работаю только с Ruby on Rails
+        %li
+          Я хорошо организован и могу управлять несколькими проектами и задачами одновременно
+        %li
+          Я могу работать с жесткими сроками и часто меняющимся приоритетами
 
-    I can help you build your next web application or troubleshoot existing Rails or Ruby code without resorting to technical jargon: my aim is to bring a professional, approachable face to the complex world of web development.
-    %br
-    I have a lot experience in creating new project from scratch, also I can maintain existing one.
-    %br
-    %br
+      Я могу создать Ваше приложение или разработать различные дополнения к имеющимся проектам. При общении я не буду переходить к техническому жаргону, моя цель помочь Вам легко получить готовый продукт.
+      %br
+      У меня много опыта по разработке проектов с начала и до конца, помогаю клиенту на каждом этапе.
+      %br
+      %br
 
-    %b
-      My main skills:
-    %br
-    %br
-    %ul
-      %li
-        Ruby on Rails
-      %li
-        MySQL, SQLite, PostgreSQL, MongoDB
-      %li
-        Git, BitBucket
-      %li
-        Heroku
-      %li
-        jQuery, Javascript, AJAX
-      %li
-        Standards-based HTML and CSS development
+      %b
+        Мои главные навыки:
+      %br
+      %br
+      %ul
+        %li
+          Ruby on Rails
+        %li
+          MySQL, SQLite, PostgreSQL, MongoDB
+        %li
+          Git, BitBucket
+        %li
+          Heroku
+        %li
+          jQuery, Javascript, AJAX
+        %li
+          HTML и CSS разработка
+        %li
+          Разработка landing-pages. Оптимизация под поисковики.
+- else
+  #about
+    .page-header
+      %h1
+        %small
+          = t('homes.index.about-heading')
+    .about_me_text
+      %b
+        Hello!
+
+      %br
+      %br
+      My name is Nikita Gnotov, I'm a professional Ruby on Rails developer. I'm always working with enthusiasm to get the best result for client.
+
+      %br
+      %br
+      %b
+        Why choose me?
+
+      %br
+      %br
+      %ul
+        %li
+          I work quickly and adapt to changing demands easily
+        %li
+          I write clean, efficient code that's easy to understand
+        %li
+          I work only with Rails and Ruby
+        %li
+          I'm well organized with ability to manage multiple projects and issues simultaneously
+        %li
+          I'm flexible and adaptable. Able to work under tight deadlines with rapidly changing priorities.
+
+      I can help you build your next web application or troubleshoot existing Rails or Ruby code without resorting to technical jargon: my aim is to bring a professional, approachable face to the complex world of web development.
+      %br
+      I have a lot experience in creating new project from scratch, also I can maintain existing one.
+      %br
+      %br
+
+      %b
+        My main skills:
+      %br
+      %br
+      %ul
+        %li
+          Ruby on Rails
+        %li
+          MySQL, SQLite, PostgreSQL, MongoDB
+        %li
+          Git, BitBucket
+        %li
+          Heroku
+        %li
+          jQuery, Javascript, AJAX
+        %li
+          Standards-based HTML and CSS development
