@@ -23,7 +23,7 @@
       <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
       <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 
-
+    = stylesheet_link_tag 'application', :async => true
 
   %body.inner
     #container
@@ -39,8 +39,7 @@
       %section
         %article
           = yield
-          
-    = stylesheet_link_tag 'application', :async => true
+
     = javascript_include_tag 'application', :async => true
 
     :javascript
