@@ -38,6 +38,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'heroku_rails_deflate'
 end
 
 gem 'jquery-rails'
