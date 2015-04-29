@@ -38,8 +38,9 @@
         %article
           = yield
 
-    = stylesheet_link_tag 'application', :async => true
+
     = javascript_include_tag 'application', :async => true
+    = stylesheet_link_tag 'application', :async => true
 
     :javascript
       var _gaq = _gaq || [];
