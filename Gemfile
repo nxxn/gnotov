@@ -12,7 +12,7 @@ gem 'will_paginate'
 gem "paperclip", "~> 3.0"
 gem 'aws-s3', :require => 'aws/s3'
 gem 'haml'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 gem 'globalize3'
 gem 'heroku'
 
