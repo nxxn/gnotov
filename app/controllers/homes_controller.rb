@@ -4,7 +4,7 @@ class HomesController < ApplicationController
   end
 
   def works
-    @works = Work.where(:show => true).order("updated_at DESC")
+    @works = Work.where(:show => true).order("display_order ASC")
   end
 
   def about
@@ -31,5 +31,3 @@ class HomesController < ApplicationController
   end
 
 end
-
-

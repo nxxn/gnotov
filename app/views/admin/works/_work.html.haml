@@ -2,6 +2,7 @@
   %thead
     %tr
       %th URL
+      %th Order
       %th Description
       %th Picture
       %th Actions
@@ -10,6 +11,8 @@
       %tr{:id => "work_#{work.id}" }
         %td
           = work.url
+        %td
+          = work.display_order
         %td
           = work.description
         %td

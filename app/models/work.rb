@@ -2,7 +2,7 @@ class Work < ActiveRecord::Base
 
   translates :description
 
-  attr_accessible :url, :description, :show, :picture
+  attr_accessible :url, :description, :show, :picture, :display_order
 
 
   has_attached_file :picture,
