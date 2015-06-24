@@ -17,7 +17,7 @@ Gnotov::Application.routes.draw do
 
     match '/:locale' => 'homes#new', :as => 'message', :via => :get
     match '/:locale' => 'homes#create', :as => 'message', :via => :post
-    
+
     match 'posts' => 'posts#index'
 
     match 'about' => 'homes#about'

@@ -6,12 +6,43 @@
 
 # Ignore bundler config
 /.bundle
-/vendor/bundle
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
+/config/database.yml
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-.idea/*
+
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
+
+db/sphinx
+
+# Ignore application configuration
+/config/application.yml
+/config/amazon_s3.yml
