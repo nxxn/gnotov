@@ -67,7 +67,7 @@ module Gnotov
       :port                 => 587,
       :domain               => "gnotov.com",
       :user_name            => "nikita@gnotov.com",
-      :password             => "mms13lol",
+      :password             => "ukicat13lol",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }
